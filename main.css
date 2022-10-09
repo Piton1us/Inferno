@@ -57,7 +57,7 @@ header div{
     flex-direction: column;
 }
 
-.visited p,button{
+.visited p, .visited button{
     margin:  15px 70px;
 }
 
@@ -73,4 +73,80 @@ header div{
     color: #fff;
     border-radius: 10px;
     border: none;
+}
+
+.offer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.white-button{
+    display: flex;
+    text-align: center;
+    width: 100px;
+    box-sizing: border-box;
+    color: #292F36;
+    background-color: #fff;
+    border: none;
+    margin-left: 70px;
+}
+
+.white-button:hover{
+    border: solid 1px;
+}
+
+.challenging{
+    box-sizing: border-box;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.challenging img{
+    width: 552px;
+    height: 635px;
+    border-radius: 0 30% 0 20%;
+    padding-left: 100px;
+}
+
+#phone{
+    display: flex;
+}
+
+.medium-text{
+    font-size: 30px;
+}
+
+.phone-button{
+    margin-top: 10px;
+    cursor: pointer;
+    height: 63px;
+    width: 63px;
+    border-radius: 100%;
+    border: none;
+}
+
+#black-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    margin-top: 10px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #292F36;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+}
+
+
+#black-button span{
+    color: #fff;
+    
+    
 }
