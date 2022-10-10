@@ -67,6 +67,7 @@ header div{
 }
 
 .black-button{
+    cursor: pointer;
     height: 40px;
     width: 11%;
     background-color: #292F36;
@@ -84,6 +85,7 @@ header div{
 }
 
 .white-button{
+    cursor: pointer;
     display: flex;
     text-align: center;
     width: 100px;
@@ -92,10 +94,6 @@ header div{
     background-color: #fff;
     border: none;
     margin-left: 70px;
-}
-
-.white-button:hover{
-    border: solid 1px;
 }
 
 .challenging{
@@ -147,6 +145,26 @@ header div{
 
 #black-button span{
     color: #fff;
+}
+
+.reviewers{
+    display: flex;
     
-    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.review{
+    height: 675px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    background-color: #F4F0EC;
+    align-items: center;
+}
+
+.rev{
+    display: flex;
 }
