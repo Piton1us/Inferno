@@ -223,11 +223,78 @@ header div{
     bottom: 25px;
 }
 
+.recent-project img{
+    border-radius: 0 15% 0 0;
+    width: 470px;
+}
+
+.recent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
 .projects{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    
+}
+
+.main-project-box{
+    margin: 10px 0;
+    max-width: 470px;
+
+}
+
+.main-project-box button{
+    margin-top: 12px;
+    border-radius: 100%;
+    background-color: #CDA274;
+    width: 60px;
+    height: 60px;
+    border: none;
 }
 
 .project-box{
+    
     display: flex;
+    justify-content: space-between;
 }
+
+.bold{
+    
+    font-weight:500;
+    font-size: 18px;
+}
+
+.numbers{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #F4F0EC;
+}
+
+.number-box{
+    max-height: 150px;
+    border-right: solid 1px #CDA274;
+    width: 300px;
+}
+
+.number-box1{
+    max-height: 150px;
+   
+    width: 300px;
+}
+
+.number{
+    margin: 0;
+    color: #CDA274;
+    font-size: 45px;
+}
+
