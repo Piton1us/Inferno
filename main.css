@@ -298,3 +298,44 @@ header div{
     font-size: 45px;
 }
 
+.example{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+
+.example-box{
+    padding: 15px 15px;
+    
+    border: #F4F0EC 1px solid;
+    border-radius: 47px ;
+    text-align: start;
+}
+
+.examples{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.date{
+    margin-bottom:20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.example-box button{
+    margin-top: 12px;
+    border-radius: 100%;
+    background-color: #F4F0EC;
+    width: 50px;
+    height: 50px;
+    border: none;
+}
+
+.medium{
+    font-weight: 500;
+    font-size: 20px;
+}
